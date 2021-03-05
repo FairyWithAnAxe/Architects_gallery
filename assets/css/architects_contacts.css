@@ -1,0 +1,105 @@
+.wrapper {
+    margin: 0px auto;
+    max-width: 1170px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa', cursive;
+}
+
+.header__body {
+    //background-color: rgb(236, 61, 61);
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    justify-content: space-between;
+}
+
+.header__logo {
+    //background-color: rgb(58, 38, 238);
+}
+
+.menu-header__menu {
+    //background-color: rgb(96, 238, 167);
+    width: 70%;
+}
+
+.menu-header__list {
+    display: flex;
+    //margin: 0px, 300px;
+    //padding-right: 200px;
+    //justify-content: space-around;
+    //justify-content: flex-start;
+    //justify-content: center;
+    //align-items: center;
+    //background-color: red;
+    //width: 70%;
+}
+
+.menu-header__list li {
+    margin: 0px 0px 0px 35px;
+    list-style-type: none;
+}
+
+.menu-header__link {
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.menu-header__link_current {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    //text-decoration: overline underline;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    //margin-top: 10px;
+    //position: relative;
+}
+
+/*.menu-header__link_top::before,
+.menu-header__link_bottom::before
+{
+    content: '';
+    background-color: black;
+    //width: 100%;
+    width: 70px;
+    height: 1px;
+    position: absolute;
+    //left: 0;
+}
+.menu-header__link_top::before{
+    top: -3px;
+    //bottom: 3px;
+}
+.menu-header__link_bottom::before{
+    bottom: -3px;
+}*/
+
+.main {
+    display: flex;
+}
+
+.main__title {
+    //font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 64px;
+    //font-size: calc(35+29*((100vw-320px)/(1170-320)));
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.main__title span {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
